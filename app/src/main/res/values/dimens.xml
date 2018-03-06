@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_padding">8dp</dimen>
+
+    <dimen name="logo_height">48dp</dimen>
+    <dimen name="logo_width">48dp</dimen>
+
+    <dimen name="header_text_left_margin">2dp</dimen>
+    <dimen name="header_text_size">42sp</dimen>
+
+    <dimen name="horizontal_line_height">4dp</dimen>
+
+    <dimen name="slogen_margin">8dp</dimen>
+    <dimen name="slogen_padding">4dp</dimen>
+    <dimen name="slogen_text_size">16sp</dimen>
+    <dimen name="slogen_corner_radius">16dp</dimen>
+</resources>

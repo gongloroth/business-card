@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/root_view_style"
+    tools:context="com.gongloroth.businesscard.MainActivity">
+
+    <LinearLayout
+        style="@style/header_style">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/header_image"
+            android:src="@drawable/smc_logo"
+            style="@style/logo_style" />
+
+        <TextView
+            android:id="@+id/header_text"
+            android:text="@string/smc_text"
+            style="@style/header_text_style" />
+
+    </LinearLayout>
+
+    <View
+        style="@style/horizontal_line_style"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/main_image"
+            style="@style/main_image_style"
+            android:src="@drawable/smc_support" />
+
+        <android.support.v7.widget.CardView
+            style="@style/slogen_textview_style"
+            app:cardCornerRadius="@dimen/slogen_corner_radius"
+            app:cardBackgroundColor="@android:color/white">
+
+            <TextView
+                style="@style/slogen_text_style"
+                android:text="@string/smc_slogen"/>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+    <View
+        style="@style/horizontal_line_style"/>
+
+    <android.support.v7.widget.CardView
+        style="@style/contact_info_card_style"
+        app:cardCornerRadius="@dimen/info_card_corner_radius"
+        app:cardBackgroundColor="@android:color/white">
+
+        <TextView
+            style="@style/slogen_text_style"
+            android:text="@string/smc_slogen"/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
