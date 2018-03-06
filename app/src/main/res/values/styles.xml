@@ -4,8 +4,8 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/baseColor</item>
+        <item name="colorAccent">@android:color/white</item>
     </style>
 
     <style name="root_view_style">
@@ -65,6 +65,16 @@
         <item name="android:gravity">center</item>
     </style>
 
+    <style name="slogen_textview_style_land">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:padding">@dimen/slogen_padding</item>
+        <item name="android:layout_margin">@dimen/slogen_margin</item>
+        <item name="android:gravity">center</item>
+    </style>
+
     <style name="slogen_text_style">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -73,4 +83,65 @@
         <item name="android:textColor">@color/baseColor</item>
         <item name="android:textStyle">bold</item>
     </style>
+
+    <style name="slogen_text_style_land">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/slogen_margin</item>
+        <item name="android:textSize">@dimen/slogen_text_size</item>
+        <item name="android:textColor">@color/baseColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="contact_info_card_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">@dimen/info_card_margin</item>
+        <item name="android:padding">@dimen/info_card_padding</item>
+    </style>
+
+    <style name="contact_info_card_style_land">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">@dimen/info_card_margin</item>
+        <item name="android:padding">@dimen/info_card_padding</item>
+    </style>
+
+    <style name="contact_line_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingRight">@dimen/contact_line_padding_right</item>
+        <item name="android:paddingLeft">@dimen/contact_line_padding_left</item>
+        <item name="android:paddingTop">@dimen/contact_line_padding_top</item>
+        <item name="android:paddingBottom">@dimen/contact_line_padding_bottom</item>
+    </style>
+
+    <style name="contact_line_style_land">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingRight">@dimen/contact_line_padding_right_land</item>
+        <item name="android:paddingLeft">@dimen/contact_line_padding_left_land</item>
+        <item name="android:paddingTop">@dimen/contact_line_padding_top</item>
+        <item name="android:paddingBottom">@dimen/contact_line_padding_bottom</item>
+    </style>
+
+    <style name="contact_icon_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/contact_icon_margin_right</item>
+        <item name="android:tint">@android:color/white</item>
+    </style>
+
+    <style name="contact_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
 </resources>

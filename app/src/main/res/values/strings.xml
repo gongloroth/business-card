@@ -4,4 +4,10 @@
     <string name="smc_text">&#160;smc</string>
 
     <string name="smc_slogen">Expertise - Passion - Automation</string>
+
+    <string name="company_name">SMC Hungary Kft.</string>
+    <string name="company_address">H-2045 Törökbálint, Torbágy u. 15-19.</string>
+    <string name="phone_number">+36-23-513-000</string>
+    <string name="email">office@smc.hu</string>
+    <string name="webpage">www.smc.hu</string>
 </resources>
